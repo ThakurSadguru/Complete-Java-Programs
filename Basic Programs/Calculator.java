@@ -25,5 +25,7 @@ public class Calculator {
 
     int Remainder = num1 % num2;
     System.out.println("Remainder : " + Remainder);
+
+    scanner.close();
   }
 }
