@@ -29,5 +29,7 @@ public class Greatersmaller {
     } else {
       System.out.println("num3 is smallest");
     }
+    scanner.close();
   }
+
 }
