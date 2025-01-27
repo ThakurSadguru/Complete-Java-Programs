@@ -32,6 +32,6 @@ public class Days {
       default:
         System.out.println("Enter valid number");
     }
-
+    sc.close();
   }
 }
