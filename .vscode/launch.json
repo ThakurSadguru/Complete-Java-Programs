@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Digits",
+      "request": "launch",
+      "mainClass": "CoreJava.Digits",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "ArmStrongnumer",
       "request": "launch",
       "mainClass": "CoreJava.ArmStrongnumer",
