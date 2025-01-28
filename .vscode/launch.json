@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "CoreJava.Factorial",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Swapnumbers",
       "request": "launch",
       "mainClass": "CoreJava.Swapnumbers",
