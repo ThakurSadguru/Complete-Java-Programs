@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArmStrongnumer",
+      "request": "launch",
+      "mainClass": "CoreJava.ArmStrongnumer",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Reversenumber",
       "request": "launch",
       "mainClass": "CoreJava.Reversenumber",
