@@ -23,3 +23,5 @@ public class ArmStrongnumer {
     sc.close();
   }
 }
+
+/* */
