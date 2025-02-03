@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Countchar",
+      "request": "launch",
+      "mainClass": "String.Countchar",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Reverseword",
       "request": "launch",
       "mainClass": "String.Reverseword",
