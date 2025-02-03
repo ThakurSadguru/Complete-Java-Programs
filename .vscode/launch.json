@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Concatenate",
+      "request": "launch",
+      "mainClass": "String.Concatenate",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Comparestrings",
       "request": "launch",
       "mainClass": "String.Comparestrings",
