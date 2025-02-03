@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Dictionarysort",
+      "request": "launch",
+      "mainClass": "String.Dictionarysort",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Createstring",
       "request": "launch",
       "mainClass": "String.Createstring",
