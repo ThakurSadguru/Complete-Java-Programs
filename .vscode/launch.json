@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Comparelexicography",
+      "request": "launch",
+      "mainClass": "String.Comparelexicography",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Charat",
       "request": "launch",
       "mainClass": "String.Charat",
