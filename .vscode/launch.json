@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Arraytostring",
+      "request": "launch",
+      "mainClass": "String.Arraytostring",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Countchar",
       "request": "launch",
       "mainClass": "String.Countchar",
