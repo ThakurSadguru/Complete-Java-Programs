@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Endswith",
+      "request": "launch",
+      "mainClass": "String.Endswith",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Twice",
       "request": "launch",
       "mainClass": "String.Twice",
