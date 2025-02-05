@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Firstlast",
+      "request": "launch",
+      "mainClass": "String.Firstlast",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Frequency",
       "request": "launch",
       "mainClass": "String.Frequency",
