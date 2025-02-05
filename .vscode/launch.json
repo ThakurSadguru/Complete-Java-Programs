@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "String.Palindrome",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Mirror",
       "request": "launch",
       "mainClass": "CoreJava.Mirror",
