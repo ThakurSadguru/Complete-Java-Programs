@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Mirror",
+      "request": "launch",
+      "mainClass": "CoreJava.Mirror",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Indexchar",
       "request": "launch",
       "mainClass": "String.Indexchar",
