@@ -17,8 +17,7 @@ public class Removeduplicate {
       }
 
       if (cnt == 0)
-        System.out.println(s1.charAt(i));
-    }
+        System.out.println(s1.charAt(i));}
 
   }
 }
