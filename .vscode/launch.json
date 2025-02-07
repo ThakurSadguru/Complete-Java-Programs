@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "String.Practice",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Removeduplicate",
       "request": "launch",
       "mainClass": "String.Removeduplicate",

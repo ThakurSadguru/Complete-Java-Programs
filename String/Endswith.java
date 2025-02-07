@@ -24,6 +24,6 @@ public class Endswith {
       else
         System.out.println("not same");
     } else
-      System.out.println("mot");
+      System.out.println("not");
   }
 }
