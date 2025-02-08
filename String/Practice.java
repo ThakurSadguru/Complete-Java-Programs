@@ -7,10 +7,21 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    String s1 = "HelloWorld";
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter num1");
+    int num1 = sc.nextInt();
 
-    for (int i = 0; i < s1.length(); i++) {
-      System.out.println(i + " " + s1.charAt(i));
-    }
+    System.out.println("Enter num2");
+    int num2 = sc.nextInt();
+
+    System.out.println("Enter num3");
+    int num3 = sc.nextInt();
+
+    if (num1 > num2 && num1 > num3)
+      System.out.println("num1");
+    else if (num2 > num1 && num2 > num3)
+      System.out.println("num2");
+    else
+      System.out.println("num3");
   }
 }
