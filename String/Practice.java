@@ -1,5 +1,6 @@
 package String;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,27 +8,19 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { 1, 3, 5, 2, 2 };
-    int n = a.length;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter Array size");
+    int size = sc.nextInt();
 
-    if (n == 1) {
-      System.out.println(0);
+    int a[] = new int[size];
+
+    for (int i = 0; i < size; i++) {
+      System.out.println("Enter a number");
+      int num = sc.nextInt();
+      a[i] = num;
+
     }
-    int sum1 = 0, sum2 = 0;
 
-    for (int i = 0; i < n; i++) {
-      sum2 += a[i];
-    }
-
-    for (int i = 0; i < n; i++) {
-      sum2 -= a[i];
-
-      if (sum1 == sum2) {
-        System.out.println(i);
-      }
-
-      sum1 += a[i];
-    }
-    System.out.println(-1);
+    System.out.println(Arrays.toString(a));
   }
 }
