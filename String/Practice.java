@@ -7,19 +7,27 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { 1, 2, 3, 4, 5 };
-    Arrays.sort(a);
+    int a[] = { 1, 3, 5, 2, 2 };
+    int n = a.length;
 
-    int diff = a[1] - a[0];
-    int cnt = 0;
-
-    for (int i = 0; i < a.length - 1; i++) {
-      if (((a[i + 1]) - (a[i])) == diff)
-        cnt++;
+    if (n == 1) {
+      System.out.println(0);
     }
-    if (cnt == a.length - 1)
-      System.out.println("yes");
-    else
-      System.out.println("No");
+    int sum1 = 0, sum2 = 0;
+
+    for (int i = 0; i < n; i++) {
+      sum2 += a[i];
+    }
+
+    for (int i = 0; i < n; i++) {
+      sum2 -= a[i];
+
+      if (sum1 == sum2) {
+        System.out.println(i);
+      }
+
+      sum1 += a[i];
+    }
+    System.out.println(-1);
   }
 }
