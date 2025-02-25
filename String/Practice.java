@@ -24,5 +24,6 @@ public class Practice {
     else
       System.out.println(n + "not perfect no");
 
+    sc.close();
   }
 }
