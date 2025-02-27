@@ -6,25 +6,21 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    String s1 = "abcd";
-    String s2 = "abcd";
+    String s1 = "hello sadguru welcome to java";
 
-    int cnt = 0;
+    String a[] = s1.split(" ");
 
-    if (s1.length() == s2.length()) {
-      for (int i = 0; i < s1.length(); i++) {
-        if (s1.charAt(i) == s2.charAt(i))
-          cnt++;
+    for (int i = 0; i < a.length; i++) {
+      for (int j = i + 1; j < a.length; j++) {
+        if (a[i].compareTo(a[j]) > 0) {
+          String temp = a[i];
+          a[i] = a[j];
+          a[j] = temp;
+        }
       }
-
-      if (cnt == s1.length())
-        System.out.println("Same");
-      else
-        System.out.println("not same");
     }
 
-    else
-      System.out.println("index not matched");
+    System.out.println(Arrays.toString(a));
   }
 
 }
