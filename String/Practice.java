@@ -12,7 +12,7 @@ public class Practice {
       int min = i;
 
       for (int j = i + 1; j < a.length; j++) {
-        if (a[j] > a[min])
+        if (a[j] < a[min])
 
           min = j;
       }
@@ -22,7 +22,8 @@ public class Practice {
       a[min] = temp;
     }
 
-    System.out.println(Arrays.toString(a));
+    int diff = a[a.length - 1] - a[0];
+    System.out.println(diff);
   }
 
 }
