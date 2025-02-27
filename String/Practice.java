@@ -6,15 +6,13 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    char ch[] = { 'h', 'e', 'f', 's' };
+    String s2 = "Sadguru@123";
 
-    String s1 = "";
+    System.out.println(s2.charAt(5));
 
-    for (int i = 0; i < ch.length; i++) {
-      s1 += ch[i];
-    }
+    char ch = s2.charAt(5);
 
-    System.out.println(s1);
+    System.out.println(ch);
 
   }
 
