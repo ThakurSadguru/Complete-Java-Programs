@@ -6,15 +6,20 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { -1, 2, 3, 1, 5, 4, -8 };
-    int max = 0;
+    int a[] = { 55, 33, 22, 11, 44 };
 
-    for (int i = 0; i < a.length; i++) {
-      if (a[i] > max)
-        max = a[i];
+    for (int i = 1; i < a.length; i++) {
+      int temp = a[i];
+      int j = i - 1;
+      for (; j >= 0; j--) {
+        if (a[j] > temp)
+          a[j + 1] = a[j];
+        else
+          break;
+      }
+      a[j + 1] = temp;
     }
-
-    System.out.println(max);
+    System.out.println(Arrays.toString(a));
   }
 
 }
