@@ -7,21 +7,26 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    String s1 = "hello aadarsh welcome to java";
+    String s1 = "12345a67";
 
-    String a[] = s1.split(" ");
+    String ans = str(s1);
 
-    for (int i = 0; i < a.length; i++) {
-      for (int j = i + 1; j < a.length; j++) {
-        if (a[i].compareTo(a[j]) > 0) {
-          String temp = a[i];
-          a[i] = a[j];
-          a[j] = temp;
-        }
+    System.out.println(ans);
+  }
+
+  private static String str(String s1) {
+    int cnt = 0;
+    for (int i = 0; i < s1.length(); i++) {
+      if (s1.charAt(i) >= '0' && s1.charAt(i) <= '9') {
+        cnt++;
       }
     }
+    if (cnt == s1.length()) {
+      return "same";
 
-    System.out.println(Arrays.toString(a));
+    } else {
+      return "not same";
+    }
   }
 
 }
