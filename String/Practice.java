@@ -7,18 +7,25 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    char ch = '#';
+    int num = 81;
+    int temp = num;
+    System.out.println("Number is : " + num);
 
-    if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
-      System.out.println(ch + "alphabet");
-    } else if (ch > '0' && ch <= '9') {
-      System.out.println(ch + "number");
+    int sum = 0;
+    while (num > 0) {
+
+      int rem = num % 10;
+      sum = sum + rem;
+      num = num / 10;
     }
 
-    else {
-      System.out.println("special");
-    }
+    System.out.println("Sum " + sum);
 
+    if (temp % sum == 0) {
+      System.out.println("harshad");
+    } else {
+      System.out.println("no");
+    }
   }
 
 }
