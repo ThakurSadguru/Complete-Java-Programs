@@ -6,21 +6,20 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    String s1 = "hello sadguru welcome to java";
+    int a[] = { 1, 2, 3, 4, 5 };
 
-    String a[] = s1.split(" ");
+    int sum = 0;
 
     for (int i = 0; i < a.length; i++) {
-      for (int j = i + 1; j < a.length; j++) {
-        if (a[i].compareTo(a[j]) > 0) {
-          String temp = a[i];
-          a[i] = a[j];
-          a[j] = temp;
-        }
-      }
+      sum += a[i];
     }
 
-    System.out.println(Arrays.toString(a));
+    System.out.println(sum);
+
+    int avg = sum / a.length;
+
+    System.out.println(avg);
+
   }
 
 }
