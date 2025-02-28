@@ -7,30 +7,16 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    Scanner sc = new Scanner(System.in);
+    char ch = '#';
 
-    System.out.println("Enter number");
-    int s1 = sc.nextInt();
+    if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
+      System.out.println(ch + "alphabet");
+    } else if (ch > '0' && ch <= '9') {
+      System.out.println(ch + "number");
+    }
 
-    switch (s1) {
-      case 1:
-        System.out.println("MON");
-        break;
-
-      case 2:
-        System.out.println("TUE");
-        break;
-
-      case 3:
-        System.out.println("WED");
-        break;
-
-      case 4:
-        System.out.println("THU");
-        break;
-
-      default:
-        System.out.println("Enter Correct");
+    else {
+      System.out.println("special");
     }
 
   }
