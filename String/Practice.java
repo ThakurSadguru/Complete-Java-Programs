@@ -6,23 +6,37 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { 5, 3, 6, 7, 2, 1 };
+    int a[] = { 1, 2, 3, 4, 5, 6 };
+    int evencnt = 0;
+    int oddcnt = 0;
 
     for (int i = 0; i < a.length; i++) {
-      int min = i;
-      for (int j = i + 1; j < a.length; j++) {
-        if (a[j] < a[min]) {
-          min = j;
-        }
+      if (a[i] % 2 == 0)
+        evencnt++;
+      else
+        oddcnt++;
 
-        int temp = a[i];
-        a[i] = a[min];
-        a[min] = temp;
+    }
+
+    int evenarr[] = new int[evencnt];
+    int oddarr[] = new int[oddcnt];
+
+    int evenIndex = 0;
+    int oddIndex = 0;
+
+    for (int i = 0; i < a.length; i++) {
+      if (a[i] % 2 == 0) {
+        evenarr[evenIndex] = a[i];
+        evenIndex++;
+
+      } else {
+        oddarr[oddIndex] = a[i];
+        oddIndex++;
       }
     }
 
-    int diff = a[a.length - 1] - a[0];
-    System.out.println(diff);
+    System.out.println(Arrays.toString(evenarr));
+    System.out.println(Arrays.toString(oddarr));
   }
 
 }
