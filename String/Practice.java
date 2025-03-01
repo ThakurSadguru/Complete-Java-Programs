@@ -7,19 +7,23 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { 11, 33, 55, 22, 77, 66 };
+    int a[] = { 5, 4, 3, 2, 1, 6 };
 
-    for (int i = 0; i < a.length; i++) {
-      for (int j = 0; j < a.length - i - 1; j++) {
-        if (a[j] > a[j + 1]) {
-          int temp = a[j];
-          a[j] = a[j + 1];
-          a[j + 1] = temp;
-        }
+    Arrays.sort(a);
+
+    int diff = a[1] - a[0];
+    int cnt = 0;
+
+    for (int i = 0; i < a.length - 1; i++) {
+      if (((a[i + 1]) - (a[i])) == diff) {
+        cnt++;
       }
-    }
 
-    System.out.println(Arrays.toString(a));
+    }
+    if (cnt == a.length - 1)
+      System.out.println("Yes");
+    else
+      System.out.println("No");
   }
 
 }
