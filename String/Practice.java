@@ -7,23 +7,23 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { 5, 4, 3, 2, 1, 6 };
+    int[] a = { 1, 2, 3, 6, 7, 5 };
 
-    Arrays.sort(a);
+    for (int i = 0; i < a.length; i++) {
+      int min = i;
 
-    int diff = a[1] - a[0];
-    int cnt = 0;
+      for (int j = i + 1; j < a.length; j++) {
+        if (a[j] > a[min]) {
+          min = j;
+        }
 
-    for (int i = 0; i < a.length - 1; i++) {
-      if (((a[i + 1]) - (a[i])) == diff) {
-        cnt++;
+        int temp = a[i];
+        a[i] = a[min];
+        a[min] = temp;
       }
-
     }
-    if (cnt == a.length - 1)
-      System.out.println("Yes");
-    else
-      System.out.println("No");
+
+    System.out.println(Arrays.toString(a));
   }
 
 }
