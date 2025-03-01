@@ -8,17 +8,26 @@ public class Practice {
   public static void main(String[] args) {
 
     int a[] = { 1, 2, 3, 4, 5 };
+    int b[] = { 1, 2, 3, 4, 5 };
 
-    int sum = 0;
+    if (a.length == b.length) {
 
-    for (int i = 0; i < a.length; i++) {
-      sum += a[i];
+      int cnt = 0;
+
+      for (int i = 0; i < a.length; i++) {
+        if (a[i] == b[i]) {
+          cnt++;
+        }
+      }
+
+      if (cnt == a.length)
+        System.out.println("Same");
+      else
+        System.out.println("not same");
     }
 
-    int avg = sum / a.length;
-
-    System.out.println(avg);
-
+    else
+      System.out.println("length not same");
   }
 
 }
