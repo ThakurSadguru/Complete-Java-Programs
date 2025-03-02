@@ -7,23 +7,26 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int[] a = { 1, 2, 3, 6, 7, 5 };
+    int a[] = { 1, 2, 3, 4, 5 };
+    int b[] = { 1, 2, 3, 4 };
 
-    for (int i = 0; i < a.length; i++) {
-      int min = i;
-
-      for (int j = i + 1; j < a.length; j++) {
-        if (a[j] > a[min]) {
-          min = j;
+    if (a.length == b.length) {
+      int cnt = 0;
+      for (int i = 0; i < a.length; i++) {
+        if (a[i] == b[i]) {
+          cnt++;
         }
 
-        int temp = a[i];
-        a[i] = a[min];
-        a[min] = temp;
       }
+      if (cnt == a.length)
+        System.out.println("same");
+      else
+        System.out.println("not same");
     }
 
-    System.out.println(Arrays.toString(a));
+    else {
+      System.out.println("length");
+    }
   }
 
 }
