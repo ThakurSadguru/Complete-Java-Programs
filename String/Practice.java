@@ -10,15 +10,18 @@ public class Practice {
     int a[] = { 1, 4, 2, 5, 3 };
 
     for (int i = 0; i < a.length; i++) {
-      for (int j = 0; j < a.length - i - 1; j++) {
-        if (a[j] > a[j + 1]) {
-          int temp = a[j];
-          a[j] = a[j + 1];
-          a[j + 1] = temp;
-        }
+      int min = i;
+      for (int j = i + 1; j < a.length; j++) {
+        if (a[j] > a[min])
+          min = j;
       }
-    }
-    System.out.println(Arrays.toString(a));
-  }
 
+      int temp = a[i];
+      a[i] = a[min];
+      a[min] = temp;
+    }
+
+    int diff = a[a.length - 1] - a[0];
+    System.out.println(diff);
+  }
 }
