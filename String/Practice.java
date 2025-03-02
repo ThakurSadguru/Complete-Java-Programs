@@ -7,21 +7,28 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int num = 81;
+    int num = 9;
     int temp = num;
-    int sum = 0;
+
+    int sq = num * num;
+    int cnt = 0;
 
     while (num > 0) {
-
-      int rem = num % 10;
-      sum = rem + sum;
       num = num / 10;
+      cnt++;
     }
 
-    if (num % sum == 0) {
-      System.out.println("Harshad");
-    } else {
-      System.out.println("Not");
-    }
+    int div = (int) Math.pow(10, cnt);
+
+    int fpart = sq / div;
+    int spart = sq % div;
+
+    int add = fpart + spart;
+
+    if (add == temp)
+      System.out.println("K");
+    else
+      System.out.println("N");
+
   }
 }
