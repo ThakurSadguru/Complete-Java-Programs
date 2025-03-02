@@ -8,24 +8,29 @@ public class Practice {
   public static void main(String[] args) {
 
     int a[] = { 1, 2, 3, 4, 5 };
-    int b[] = { 1, 2, 3, 4 };
 
-    if (a.length == b.length) {
-      int cnt = 0;
-      for (int i = 0; i < a.length; i++) {
-        if (a[i] == b[i]) {
-          cnt++;
-        }
+    int cnt = 0;
+    int start = 0;
+    int end = a.length - 1;
+    int ele = 0;
 
+    while (start <= end) {
+      int mid = (start + end) / 2;
+
+      if (a[mid] == ele) {
+        System.out.println("found");
+        cnt++;
+        break;
       }
-      if (cnt == a.length)
-        System.out.println("same");
+
+      if (a[mid] < ele)
+        start = start + 1;
       else
-        System.out.println("not same");
+        end = end - 1;
     }
 
-    else {
-      System.out.println("length");
+    if (cnt == 0) {
+      System.out.println("not found");
     }
   }
 
