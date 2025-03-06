@@ -7,24 +7,19 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    String s1 = "abcba";
-    String ans = pal(s1);
+    String s1 = "sadguru hi how are u";
 
-    System.out.println(ans);
+    for (int i = 0; i < s1.length(); i++) {
+      int cnt = 0;
+      for (int j = 0; j < i; j++) {
+        if (s1.charAt(i) == s1.charAt(j)) {
+          cnt++;
+          break;
+        }
+      }
 
-    if (s1.equals(ans))
-      System.out.println("same");
-    else
-      System.out.println("not same");
-
-  }
-
-  private static String pal(String s1) {
-    String b = "";
-    for (int i = s1.length() - 1; i >= 0; i--) {
-      b += s1.charAt(i);
+      if (cnt == 0)
+        System.out.println(s1.charAt(i));
     }
-
-    return b;
   }
 }
