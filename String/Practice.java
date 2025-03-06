@@ -8,29 +8,38 @@ public class Practice {
   public static void main(String[] args) {
 
     String s1 = "sadguru";
-    String s2 = "uru";
 
-    if (s1.length() >= s2.length()) {
-      int s1Index = s1.length() - 1;
-      int s2Index = s2.length() - 1;
+    freq(s1);
+
+  }
+
+  private static void freq(String s1) {
+    int max = 0;
+    char ch = 0;
+
+    for (int i = 0; i < s1.length(); i++) {
       int cnt = 0;
-
-      while (s2Index >= 0) {
-        if (s2.charAt(s2Index) == s1.charAt(s1Index)) {
+      for (int j = 0; j < i; j++) {
+        if (s1.charAt(i) == s1.charAt(j)) {
           cnt++;
         }
-        s1Index--;
-        s2Index--;
       }
+      if (cnt == 0) {
+        int freq = 0;
+        for (int j = 0; j < s1.length(); j++) {
+          if (s1.charAt(i) == s1.charAt(j)) {
+            freq++;
+          }
 
-      if (cnt == s2.length())
-        System.out.println("same");
-      else
-        System.out.println("not same");
+        }
+
+        if (freq > max) {
+          max = freq;
+          ch = s1.charAt(i);
+        }
+      }
     }
 
-    else
-      System.out.println("not");
-
+    System.out.println(ch + " " + max);
   }
 }
