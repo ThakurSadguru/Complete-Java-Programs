@@ -7,19 +7,24 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    String s1 = "sadguru hi how are u";
+    String s1 = "sadguru  hi  how    are u";
 
+    s1 = s1.trim();
+
+    String s2 = "";
+    String ans = rem(s1, s2);
+    System.out.println(ans);
+
+  }
+
+  private static String rem(String s1, String s2) {
     for (int i = 0; i < s1.length(); i++) {
-      int cnt = 0;
-      for (int j = 0; j < i; j++) {
-        if (s1.charAt(i) == s1.charAt(j)) {
-          cnt++;
-          break;
-        }
+      if (s1.charAt(i) == ' ' && s1.charAt(i + 1) == ' ') {
+        continue;
+      } else {
+        s2 += s1.charAt(i);
       }
-
-      if (cnt == 0)
-        System.out.println(s1.charAt(i));
     }
+    return s2;
   }
 }
