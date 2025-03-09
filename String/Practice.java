@@ -7,15 +7,22 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+    int space = 4;
 
-    for (int i = 0; i < a.length; i++) {
-      for (int j = i; j <= a.length; j++) {
-        for (int k = i; k < j; k++) {
-          System.out.print(a[k] + " ");
+    for (int i = 1; i <= 5; i++) {
+      int cnt = 5;
+      for (int j = 1; j <= 5; j++) {
+        if (j <= space) {
+          System.out.print(" ");
+        } else {
+          System.out.print(cnt);
+          cnt--;
         }
-        System.out.println();
       }
+      System.out.println();
+      space--;
+
     }
+
   }
 }
