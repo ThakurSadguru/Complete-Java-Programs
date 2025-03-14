@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Consecutive",
+      "request": "launch",
+      "mainClass": "Arrays.Consecutive",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Presentornot",
+      "request": "launch",
+      "mainClass": "Arrays.Presentornot",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Frequency",
+      "request": "launch",
+      "mainClass": "Arrays.Frequency",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Double",
+      "request": "launch",
+      "mainClass": "Arrays.Double",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "BinarySearch",
       "request": "launch",
       "mainClass": "Arrays.BinarySearch",
