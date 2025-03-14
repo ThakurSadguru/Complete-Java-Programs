@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayEqual",
+      "request": "launch",
+      "mainClass": "Arrays.ArrayEqual",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "AddAvg",
       "request": "launch",
       "mainClass": "Arrays.AddAvg",
