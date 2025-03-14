@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "Arrays.BinarySearch",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "ArrayEqual",
       "request": "launch",
       "mainClass": "Arrays.ArrayEqual",
