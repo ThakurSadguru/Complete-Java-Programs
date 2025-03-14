@@ -7,25 +7,16 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int end = 5;
-    int space = 0;
+    int a[] = { 1, 2, 3, 4, 5 };
+    int sum = 0;
 
-    for (int i = 0; i <= 9; i++) {
-      for (int j = 0; j <= space; j++) {
-        System.out.print(" ");
-      }
-      for (int j = 0; j <= end; j++) {
-        System.out.print("* ");
-      }
-
-      System.out.println();
-      if (i < 5) {
-        end--;
-        space++;
-      } else {
-        end++;
-        space--;
-      }
+    for (int i = 0; i < a.length; i++) {
+      sum += a[i];
     }
+
+    System.out.println(sum);
+    int avg = sum / a.length;
+
+    System.out.println(avg);
   }
 }
