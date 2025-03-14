@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AddAvg",
+      "request": "launch",
+      "mainClass": "Arrays.AddAvg",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Alphabet",
       "request": "launch",
       "mainClass": "Pattern.Alphabet",
