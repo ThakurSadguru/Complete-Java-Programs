@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Triplet",
+      "request": "launch",
+      "mainClass": "Arrays.Triplet",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "SubArray",
+      "request": "launch",
+      "mainClass": "Arrays.SubArray",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Reverse",
+      "request": "launch",
+      "mainClass": "Arrays.Reverse",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Replace",
+      "request": "launch",
+      "mainClass": "Arrays.Replace",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Pair",
       "request": "launch",
       "mainClass": "Arrays.Pair",

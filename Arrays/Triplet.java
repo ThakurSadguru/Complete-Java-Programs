@@ -1,9 +1,8 @@
-package String;
+package Arrays;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class Practice {
+public class Triplet {
 
   public static void main(String[] args) {
 
@@ -18,4 +17,5 @@ public class Practice {
       }
     }
   }
+
 }
