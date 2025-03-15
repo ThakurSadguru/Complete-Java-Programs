@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindMax",
+      "request": "launch",
+      "mainClass": "Arrays.FindMax",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "FindIndex",
+      "request": "launch",
+      "mainClass": "Arrays.FindIndex",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "EvenOdd",
+      "request": "launch",
+      "mainClass": "Arrays.EvenOdd",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Difference",
+      "request": "launch",
+      "mainClass": "Arrays.Difference",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Descending",
+      "request": "launch",
+      "mainClass": "Arrays.Descending",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Consecutive",
       "request": "launch",
       "mainClass": "Arrays.Consecutive",
