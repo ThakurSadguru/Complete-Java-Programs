@@ -1,13 +1,12 @@
-package String;
+package Arrays;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class Practice {
+public class Duplicate {
 
   public static void main(String[] args) {
 
-    int a[] = { 1, 2, 1 };
+    int a[] = { 1, 4, 2, 5, 3, 4, 2 };
 
     int uniqueCnt = 0;
     for (int i = 0; i < a.length; i++) {
@@ -16,7 +15,7 @@ public class Practice {
         if (a[i] == a[j])
           cnt++;
       }
-      if (cnt == 0)
+      if (cnt >= 1)
         uniqueCnt++;
     }
     int b[] = new int[uniqueCnt];
@@ -27,16 +26,11 @@ public class Practice {
         if (a[i] == a[j])
           cnt++;
       }
-      if (cnt == 0) {
+      if (cnt >= 1) {
         b[index] = a[i];
         index++;
       }
     }
-    for (int i = 0; i < b.length; i++) {
-      for (int j = 0; j < b.length; j++) {
-        System.out.println(b[i] + " " + b[j]);
-      }
-    }
-
+    System.out.println(Arrays.toString(b));
   }
 }

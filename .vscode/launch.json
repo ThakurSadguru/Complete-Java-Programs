@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Pair",
+      "request": "launch",
+      "mainClass": "Arrays.Pair",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Duplicate",
+      "request": "launch",
+      "mainClass": "Arrays.Duplicate",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "LeaderElement",
+      "request": "launch",
+      "mainClass": "Arrays.LeaderElement",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "FindMax",
       "request": "launch",
       "mainClass": "Arrays.FindMax",
