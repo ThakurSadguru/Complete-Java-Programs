@@ -6,6 +6,104 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "Arrays.SelectionSort",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "LeftShift",
+      "request": "launch",
+      "mainClass": "Arrays.LeftShift",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "PositiveNegative",
+      "request": "launch",
+      "mainClass": "Arrays.PositiveNegative",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "PrintMatrix",
+      "request": "launch",
+      "mainClass": "Arrays.PrintMatrix",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "UniqueElement",
+      "request": "launch",
+      "mainClass": "Arrays.UniqueElement",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "MinMatrix",
+      "request": "launch",
+      "mainClass": "Arrays.MinMatrix",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "MaxMatrix",
+      "request": "launch",
+      "mainClass": "Arrays.MaxMatrix",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "InterLeavingA",
+      "request": "launch",
+      "mainClass": "Arrays.InterLeavingA",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "Arrays.InsertionSort",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "IndexandElement",
+      "request": "launch",
+      "mainClass": "Arrays.IndexandElement",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "FindElement",
+      "request": "launch",
+      "mainClass": "Arrays.FindElement",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "ArraytoMatrix",
+      "request": "launch",
+      "mainClass": "Arrays.ArraytoMatrix",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "Arrays.BubbleSort",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "AddMatrix",
+      "request": "launch",
+      "mainClass": "Arrays.AddMatrix",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Triplet",
       "request": "launch",
       "mainClass": "Arrays.Triplet",
