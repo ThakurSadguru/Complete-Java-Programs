@@ -16,7 +16,7 @@ public class Numbers {
         end2--;
     }
 
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------1");
 
     int end = 1;
     for (int i = 1; i <= 5; i++) {
@@ -30,7 +30,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------2");
 
     int space1 = 4;
     for (int i = 1; i <= 5; i++) {
@@ -49,7 +49,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------3");
 
     int space = 4;
     for (int i = 1; i <= 5; i++) {
@@ -66,7 +66,7 @@ public class Numbers {
       space--;
     }
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------4");
 
     int end22 = 1;
     int cnt2 = 1;
@@ -80,7 +80,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------5");
 
     int end3 = 1;
     int cnt3 = 1;
@@ -96,7 +96,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------6");
 
     int end4 = 1;
     int cnt4 = 5;
@@ -113,7 +113,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------7");
 
     int end5 = 5;
     int cnt5 = 1;
@@ -129,7 +129,7 @@ public class Numbers {
       cnt5++;
     }
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------8");
 
     int space2 = 4;
     for (int i = 5; i <= 1; i++) {
@@ -148,7 +148,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------9");
 
     space2 = 4;
     for (int i = 1; i <= 5; i++) {
@@ -168,7 +168,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------10");
 
     space2 = 0;
     int cnt = 1;
@@ -187,7 +187,7 @@ public class Numbers {
 
     }
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------11");
 
     end = 1;
     cnt = 1;
@@ -202,7 +202,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------12");
 
     cnt = 1;
     end = 1;
@@ -222,7 +222,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------13");
 
     end = 1;
     cnt = 1;
@@ -242,7 +242,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------14");
 
     System.out.println("------------------------------------------------------------");
 
@@ -259,7 +259,7 @@ public class Numbers {
     }
 
     System.out.println();
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------15");
 
     for (int i = 1; i <= 7; i++) {
       cnt = 0;
@@ -274,7 +274,7 @@ public class Numbers {
 
     }
 
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------16");
 
     int num = 1;
     for (int i = 1; i <= 5; i++) {
@@ -286,7 +286,7 @@ public class Numbers {
       }
       System.out.println();
     }
-    System.out.println("------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------17");
 
     System.out.println("------------------------------------------------------------");
     System.out.println("------------------------------------------------------------");
