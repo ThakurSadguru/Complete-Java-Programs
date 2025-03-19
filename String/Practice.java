@@ -7,29 +7,13 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    int a[] = { 1, 2, 3, 4, 5, 6 };
-    int start = 0;
-    int cnt = 0;
-    int ele = 4;
-    int end = a.length - 1;
+    for (int i = 1; i <= 5; i++) {
 
-    while (start <= end) {
-      int mid = (start + end) / 2;
-
-      if (a[mid] == ele) {
-        System.out.println("found");
-        cnt++;
-        break;
+      for (int j = 1; j <= i; j++) {
+        System.out.print(i);
       }
-      if (ele > a[mid])
-        start = mid + 1;
-      else
-        end = mid - 1;
+      System.out.println();
     }
 
-    if (cnt == 0)
-      System.out.println(" not found");
-
   }
-
 }

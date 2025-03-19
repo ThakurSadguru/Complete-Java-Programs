@@ -31,6 +31,7 @@ public class EvenOdd {
         oddInd++;
       }
     }
+
     System.out.println(Arrays.toString(evenArr));
     System.out.println(Arrays.toString(oddArr));
   }
