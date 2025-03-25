@@ -7,13 +7,24 @@ public class Practice {
 
   public static void main(String[] args) {
 
-    for (int i = 1; i <= 5; i++) {
+    String s1 = "abcde";
+    String s2 = "abcdf";
 
-      for (int j = 1; j <= i; j++) {
-        System.out.print(i);
+    int cnt = 0;
+
+    if (s1.length() == s2.length()) {
+      for (int i = 0; i < s1.length(); i++) {
+        if (s1.charAt(i) == s2.charAt(i)) {
+          cnt++;
+        }
       }
-      System.out.println();
-    }
+      if (cnt == s1.length())
+        System.out.println("Same");
+      else
+        System.out.println("not same");
+
+    } else
+      System.out.println("length");
 
   }
 }
