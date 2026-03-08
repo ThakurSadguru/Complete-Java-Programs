@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Compare",
+      "request": "launch",
+      "mainClass": "Advance.Compare",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Adddigits",
+      "request": "launch",
+      "mainClass": "String.Adddigits",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "ReverseeachWord",
+      "request": "launch",
+      "mainClass": "String.ReverseeachWord",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "MethodsofString",
+      "request": "launch",
+      "mainClass": "String.MethodsofString",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Xyz",
+      "request": "launch",
+      "mainClass": "String.Xyz",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Dog",
+      "request": "launch",
+      "mainClass": "String.Dog",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "SelectionSort",
       "request": "launch",
       "mainClass": "Arrays.SelectionSort",
