@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CheckDuplicate",
+      "request": "launch",
+      "mainClass": "Collection.HashMap.CheckDuplicate",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "MaxElement",
+      "request": "launch",
+      "mainClass": "Collection.HashMap.MaxElement",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "Frequency",
+      "request": "launch",
+      "mainClass": "Collection.HashMap.Frequency",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "Compare",
       "request": "launch",
       "mainClass": "Advance.Compare",

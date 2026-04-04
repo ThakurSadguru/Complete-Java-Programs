@@ -17,3 +17,5 @@ public class Adddigits {
   }
 
 }
+
+// It extracts all digits from a string and adds them together.

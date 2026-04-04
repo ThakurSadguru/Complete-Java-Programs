@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Countchar {
 
   public static void main(String[] args) {
-    CharCount("Hello from Java");
+    CharCount("Hello from Java Java");
   }
 
   static void CharCount(String inputString) {
@@ -13,7 +13,7 @@ public class Countchar {
 
     for (String s : inputString.split(" ")) {
       if (charCountMap.containsKey(s)) {
-        charCountMap.put(s, charCountMap.get((s) + 1));
+        charCountMap.put(s, charCountMap.get(s) + 1);
       } else {
         charCountMap.put(s, 1);
       }
