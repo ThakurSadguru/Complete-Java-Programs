@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EqualArray",
+      "request": "launch",
+      "mainClass": "Collection.HashMap.EqualArray",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "CharFrequency",
+      "request": "launch",
+      "mainClass": "Collection.HashMap.CharFrequency",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
+      "name": "FirstNonRepeating",
+      "request": "launch",
+      "mainClass": "Collection.HashMap.FirstNonRepeating",
+      "projectName": "Java_c37880e7"
+    },
+    {
+      "type": "java",
       "name": "CheckDuplicate",
       "request": "launch",
       "mainClass": "Collection.HashMap.CheckDuplicate",
